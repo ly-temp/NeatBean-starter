@@ -1,6 +1,6 @@
 #!/bin/bash
 apt update &&apt install -y p7zip-full
-mkdir -p /workspace/nb &&cd /workspace/nb
+mkdir -p /workspaces/nb &&cd /workspaces/nb
 wget https://download.oracle.com/java/20/latest/jdk-20_linux-x64_bin.tar.gz
 tar xf jdk-20_linux-x64_bin.tar.gz &&rm jdk-20_linux-x64_bin.tar.gz
 JAVA_HOME=$(realpath jdk-20.0.2)
